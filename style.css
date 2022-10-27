@@ -1,0 +1,124 @@
+ *{
+   padding: 0;
+   margin: 0;
+ }
+
+ .body{
+   background-image: url('background.jpg');
+ }
+
+ .netflixApp{
+   width: 100%;
+   height: 100vh;
+   background: rgba(0,0,0, 0.6)
+ }
+
+ .header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .logo{
+   width: 125px;
+   margin: 20px 0 0 20px;
+ }
+
+ .menu{
+   margin: 20px 20px 0 0;
+ }
+
+ .lang{
+   color: white;
+   background-color: black;
+   padding: 8px 0 8px 8px;
+   border: 0.5px solid white;
+   border-radius: 2px;
+   margin-right: 10px;
+ }
+
+ .signIn{
+  color: white;
+  background-color: red;
+  padding: 9px;
+  border: none;
+  border-radius: 2px;
+ }
+
+ .content{
+   width: 100%;
+   height: 80vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   color: white;
+ }
+
+ .heading{
+   font-size: 45px;
+   font-weight: bold;
+ }
+
+ .subHeading{
+   font-size: 25px;
+   margin: 15px 0;
+ }
+
+ .text{
+    margin-bottom: 15px;
+ }
+
+ .emailInput{
+  margin-left: 60px;
+
+ }
+
+ .email{
+   min-width: 300px;
+   padding: 10px;
+ }
+
+ .emailBtn{
+   padding: 10px;
+   background-color: red;
+   color: white;
+   border: none;
+   margin-left: -4px;
+ }
+
+
+
+
+ @media only screen and (max-width: 600px){
+
+    .logo{
+      width: 100px;
+    }
+
+    .heading{
+      font-size: 30px;
+    }
+
+    .subHeading{
+      font-size: 18px;
+    }
+
+    .text{
+      font-size: 12px;
+    }
+
+    .email{
+      min-width: 300px;
+      margin: 0 25px;
+    }
+
+    .emailBtn{
+      margin: 15px 130px;
+    }
+ }
+
+
+
+
+ 
